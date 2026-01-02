@@ -1,0 +1,69 @@
+/* Offers page specific styles */
+
+.offer-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid var(--softgrey);
+  padding: 20px 22px 22px;
+  position: relative;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-highlight {
+  border-color: var(--gold);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.offer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.offer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--charcoal);
+}
+
+.offer-tagline {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.offer-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+.offer-list li::before {
+  content: "•";
+  color: var(--gold);
+  margin-right: 6px;
+}
+
+.offer-valid {
+  font-size: 0.8rem;
+  color: #999999;
+  margin-bottom: 12px;
+}
+
+/* Ribbon badge */
+.offer-ribbon {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background-color: var(--gold);
+  color: var(--charcoal);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

@@ -1,0 +1,28 @@
+.call-form {
+  background-color: #232323;
+}
+
+.call-form .form-label{
+  color: #fff;
+}
+
+.call-form .form-control,
+.call-form .form-select {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  color: #fff;
+}
+
+.call-form .form-control:focus,
+.call-form .form-select:focus {
+  border-color: #d4af37;
+  box-shadow: none;
+}
+
+/*error messages */
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 4px;
+}

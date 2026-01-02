@@ -1,0 +1,204 @@
+:root{
+    --charcoal:#1C1C1C;
+    --gold:#D4AF37;
+    --ivory:#FAF7F0;
+    --softgrey:#E5E5E5;
+    --body-font:"Segoe UI", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--charcoal);
+    background-color: white !important;
+}
+
+/*Bg COLORS */
+
+.bg-charcoal{
+    background-color: var(--charcoal);
+}
+
+.bg-gold{
+    background-color: var(--gold);
+}
+
+.bg-ivory{
+    background-color: var(--ivory);
+}
+.bg-softgrey{
+    background-color:var(--softgrey);
+}
+
+/*TEXT COLORS*/
+
+
+.text-ivory{
+    color: var(--ivory);
+}
+
+.text-gold{
+    color: var(--gold) !important;
+}
+
+.text-charcoal{
+    color:var(--charcoal);
+}
+.text-ivory:hover{
+    color: var(--gold);
+}
+
+/* BUTTONS */
+
+.btn-charcoal{
+    background-color: var(--charcoal);
+    color: var(--ivory);
+}
+
+.btn-gold{
+    background-color: var(--gold);
+    color: var(--charcoal);
+    /* border: none; */
+}
+.btn-charcoal:hover{
+    background-color:#181818 ;
+}
+.btn-gold:hover{
+    background-color:#C09C2F ;    
+}
+
+
+/* NAVBAR */
+
+.fixed_topbar{
+    z-index: 1050;
+}
+
+.logo-font{
+    font-family: 'Quicksand';
+    
+    font-size: 3rem;
+}
+
+.nav-hov a:hover{
+    color:var(--gold)
+}
+
+#mainNav .nav-link.active {
+  border-bottom: 2px solid var(--gold);
+}
+
+
+/* COMMON TITLE AND LABEL */
+
+.section-title{
+    font: size 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:var(--charcoal);
+}
+
+.section-label{
+    font-size:1.5rem ;
+    font-weight: 600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color: var(--gold);
+
+}
+
+/* COMMON SPACING B/W SECTION */
+
+.page-offset{
+    padding-top: 105px;
+    
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+
+
+
+/* PAGE HERO */
+
+.page-hero{
+    padding: 60px 0 40px;
+    background: linear-gradient(to bottom,var(--ivory),#ffffff);
+    border-bottom: 1px solid var(--softgrey);
+}
+
+.page-hero h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--charcoal);
+}
+
+.page-hero p{
+    margin: 0;
+    color:#777;
+    font-size: 0.95rem;
+}
+
+/* INFO CARD */
+
+.info-card{
+    background-color: #ffffff;
+    border: 1px solid var(--softgrey);
+    border-radius: 4px;
+    padding:18px 20px;
+}
+.info-card h5,
+.info-card h6{
+    font-weight: 600;
+    margin-bottom: 6px;
+    color:var(--charcoal);
+}
+.info-card p{
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+/* WHATSAPP SIDE BUTTON */
+
+.whatsapp-btn{
+    z-index: 1000;
+    /* changed name */
+}
+
+/* FOOTER*/
+
+.footer-main{
+    background-color: var(--charcoal);
+    color: var(--ivory);
+    font-size: 0.9rem;
+}
+.footer-heading{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ivory);
+
+}
+.footer-small{
+    font-size: 0.8rem;
+    color: var(--softgrey);
+}
+.footer-main a{
+    color: var(--softgrey);
+    text-decoration: none;
+}
+.footer-main a:hover{
+    color: var(--gold);
+    /* text-decoration: underline; */
+}
+.border-softgrey{
+    border-color: rgba(229,229,229,0.2) !important;/* hr */
+}
+
+

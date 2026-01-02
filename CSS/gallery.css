@@ -1,0 +1,26 @@
+/* Image grid */
+.gallery-item {
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover zoom + slight dim effect */
+.gallery-item:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.95);
+}
+
+/* Adjust heights on small screens */
+@media (max-width: 576px) {
+   .gallery-item img {
+    height: 180px;
+  }
+}

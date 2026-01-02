@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    
+ 
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+ 
+        
+  <!-- CSS -->
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/faq.css">
+
+  <!-- Google font for hero heading -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap">
+
+  <!-- Font -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Fixed navbar -->
+<header class="position-fixed top-0 fixed_topbar w-100">
+   <!-- Navbar -->
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-charcoal">
+    <div class="container">
+      <a href="home.html" class="navbar-brand text-gold fw-bold">
+       <span class="logo-font">navora</span>
+      </a>
+
+      <button class="navbar-toggler text-light" type="button"
+              data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-hov">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="whatwedo.html">What We Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+          <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ's</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+            <span>
+<!-- Registration button -->
+        <a href="home.html#consultation-modal" class="btn btn-gold btn-sm fw-bold ms-lg-5">
+          Register
+        </a>
+      </span>
+      </div>
+   
+    </div>
+  </nav>
+</header>
+
+ <!-- PAGE CONTENT -->
+  <main class="page-offset">
+
+    <!-- Page hero -->
+    <section class="page-hero text-center">
+      <div class="container">
+        <span class="section-label mb-1">FAQ</span>
+        <h1>Frequently Asked Questions</h1>
+        <p>Clear answers about our interior design process, pricing and timelines</p>
+      </div>
+    </section>
+
+    <!-- FAQ section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="section-title mb-2" style="font-size:1.4rem;">General Questions</h2>
+          <p class="text-muted small mb-0">
+            Click on a question to see the answer.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="accordion faq-accordion" id="faqAccordion">
+
+              <!-- Q1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingOne">
+                  <button class="accordion-button" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faqCollapseOne"
+                          aria-expanded="true"
+                          aria-controls="faqCollapseOne">
+                    How do I get started with Navora Interiors?
+                  </button>
+                </h2>
+                <div id="faqCollapseOne" class="accordion-collapse collapse show"
+                     aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Share your contact details and floor plan, then our design team schedules a free consultation to understand your style, budget and requirements.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingTwo">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faqCollapseTwo"
+                          aria-expanded="false"
+                          aria-controls="faqCollapseTwo">
+                    What services do you provide?
+                  </button>
+                </h2>
+                <div id="faqCollapseTwo" class="accordion-collapse collapse"
+                     aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Services include design consultation, 3D visualisation, material selection, custom furniture, modular kitchens and complete execution with site supervision.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingThree">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faqCollapseThree"
+                          aria-expanded="false"
+                          aria-controls="faqCollapseThree">
+                    How long does a typical project take?
+                  </button>
+                </h2>
+                <div id="faqCollapseThree" class="accordion-collapse collapse"
+                     aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Timelines vary by size, but most 2BHK and 3BHK full‑home interior projects take 8–12 weeks from final design approval to handover.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingFour">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faqCollapseFour"
+                          aria-expanded="false"
+                          aria-controls="faqCollapseFour">
+                    Do you work within different budgets?
+                  </button>
+                </h2>
+                <div id="faqCollapseFour" class="accordion-collapse collapse"
+                     aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Yes, designs and materials are customised to match your budget while maintaining quality, with transparent estimates shared before confirmation.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Q5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeadingFive">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faqCollapseFive"
+                          aria-expanded="false"
+                          aria-controls="faqCollapseFive">
+                    What kind of warranty do you offer?
+                  </button>
+                </h2>
+                <div id="faqCollapseFive" class="accordion-collapse collapse"
+                     aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Warranty coverage depends on the product and hardware selected, and commonly includes multi‑year support on modular units and fittings.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            
+   <!-- Call to action -->
+            <div class="text-center mt-4">
+              <p class="small text-muted mb-2">
+                Still have questions?
+              </p>
+              <a href="contact.html" class="btn btn-gold text-charcoal fw-semibold">
+                Talk to our design team
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+   <!-- Fixed Side Buttons -->
+    
+      <div class="position-fixed bottom-0 end-0 translate-middle-y " style="z-index: 500;">
+
+        <a href="https://wa.me/91974732094" class="btn btn-success rounded-pill px-4 py-2" title="whatsapp"><i class="fab fa-whatsapp me-1"></i>Chat Now</a>
+  
+       
+
+    </div>
+
+
+<!-- Fixed Side Button -->
+    <div class="position-fixed bottom-0 end-0 translate-middle-y " style="z-index: 500;">
+      <a href="https://wa.me/91974732094" class="btn btn-success rounded-pill px-4 py-2" title="whatsapp"><i class="fab fa-whatsapp me-1"></i>Chat Now</a>
+    </div>
+<!-- FOOTER -->
+<footer class="footer-main mt-5 pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h5 class="footer-heading mb-3">Company Direct Showrooms</h5>
+        <p class="footer-small mb-2">We don't have any franchise showrooms.</p>
+
+        <div class="row footer-small">
+          <div class="col-6 col-lg-4 mb-3">
+            <h6 class="fw-semibold">Abu Dhabi</h6>
+            <p class="mb-1">Al Reem Island</p>
+            <p class="mb-0">+971 50 000 0001</p>
+          </div>
+          <div class="col-6 col-lg-4 mb-3">
+            <h6 class="fw-semibold">Sharjah</h6>
+            <p class="mb-1">Al Majaz</p>
+            <p class="mb-0">+971 50 000 0002</p>
+          </div>
+          <div class="col-6 col-lg-4 mb-3">
+            <h6 class="fw-semibold">Ajman</h6>
+            <p class="mb-1">Al Rashidiya</p>
+            <p class="mb-0">+971 50 000 0003</p>
+          </div>
+          <div class="col-6 col-lg-4 mb-3">
+            <h6 class="fw-semibold">Al Ain</h6>
+            <p class="mb-1">Al Jimi</p>
+            <p class="mb-0">+971 50 000 0004</p>
+          </div>
+          <div class="col-6 col-lg-4 mb-3">
+            <h6 class="fw-semibold">Ras Al Khaimah</h6>
+            <p class="mb-1">Al Nakheel</p>
+            <p class="mb-0">+971 50 000 0005</p>
+          </div>
+          <div class="col-6 col-lg-4 mb-3">
+            <h6 class="fw-semibold">Fujairah</h6>
+            <p class="mb-1">Al Hayl</p>
+            <p class="mb-0">+971 50 000 0006</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="footer-heading mb-3">Useful Links</h5>
+        <ul class="list-unstyled footer-small">
+          <li><a href="whatwedo.html">Interior Designers in Abu Dhabi</a></li>
+          <li><a href="whatwedo.html">Interior Designers in Sharjah</a></li>
+          <li><a href="gallery.html">Completed Projects</a></li>
+          <li><a href="offers.html">Latest Offers</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="footer-heading mb-3">Quick Links</h5>
+        <ul class="list-unstyled footer-small">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">Company</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ's</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="border-softgrey my-3">
+
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center footer-small">
+      <p class="mb-1 mb-md-0">
+        © 2025 Navora Interiors. All rights reserved.
+      </p>
+      <p class="mb-0">
+        Designed for academic project purpose.
+      </p>
+    </div>
+  </div>
+</footer>
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

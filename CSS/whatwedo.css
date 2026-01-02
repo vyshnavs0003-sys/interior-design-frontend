@@ -1,0 +1,122 @@
+
+/*INTRO TEXT */
+
+.services-intro {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.services-intro p {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #666666;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* MAIN SERVICE BLOCKS */
+
+.service-split-img img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.service-number {
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  /* color: #999999; */
+  columns: var(--gold);
+}
+
+.service-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.service-text {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.8;
+}
+
+/* SERVICE CARDS */
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid var(--softgrey);
+  border-radius: 4px;
+  padding: 22px 20px;
+}
+
+.service-card h5 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--charcoal);
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #666666;
+  line-height: 1.7;
+}
+
+/* PROCESS STEPS */
+
+.process-step-number {
+  font-size: 1rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.2rem;
+}
+
+.process-step-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.2rem;
+}
+
+.process-step-text {
+  color: #666666;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 991.98px) {
+  .page-hero {
+    padding-top: 6rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .service-heading {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .page-hero {
+    padding-top: 5.5rem;
+  }
+
+  .page-title {
+    font-size: 1.4rem;
+  }
+
+  .page-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .service-text {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {"title":"L-Shape Kitchen","category":"kitchen","price":"AED 35,000*","image":"/ASSETS/products/mod-kitchen.jpg","meta":"Soft-close • Granite top","ribbon":"BEST SELLER"},
+  {"title":"U-Shape Kitchen","category":"kitchen","price":"AED 48,000*","image":"/ASSETS/products/u-kitchen.jpg","meta":"Island kitchen • Premium fittings"},
+  {"title":"Sliding Wardrobe","category":"wardrobe","price":"AED 12,000*","image":"/ASSETS/products/sliding-wardrobe.jpg","meta":"Mirror + laminate • 10ft height"},
+  {"title":"Hinged Wardrobe","category":"wardrobe","price":"AED 9,500*","image":"/ASSETS/products/hinged-wardrobe.jpg","meta":"PVC finish • Internal organizers"},
+  {"title":"Wall TV Unit","category":"living","price":"AED 8,500*","image":"/ASSETS/products/tv-unit.jpg","meta":"Hidden cable mgmt • LED lighting"},
+  {"title":"Feature Wall Panel","category":"living","price":"AED 6,200*","image":"/ASSETS/products/wall-panel.jpg","meta":"Textured wood • Accent lighting"},
+  {"title":"Upholstered Headboard","category":"bedroom","price":"AED 4,800*","image":"/ASSETS/products/headboard.jpg","meta":"Fabric + wood frame"},
+  {"title":"Study Desk","category":"bedroom","price":"AED 3,200*","image":"/ASSETS/products/study-table.jpg","meta":"Wall-mounted • Cable organizer"},
+  {"title":"Wall Cabinets","category":"kitchen","price":"AED 7,800*","image":"/ASSETS/products/kitchen-cabinet.jpg","meta":"Tall pantry units"},
+  {"title":"Shoe Cabinet","category":"living","price":"AED 2,800*","image":"/ASSETS/products/shoe-cabinet.jpg","meta":"Entryway storage"},
+  {"title":"Kids Wardrobe","category":"wardrobe","price":"AED 6,500*","image":"/ASSETS/products/kids-wardrobe.jpg","meta":"Colorful finishes"},
+  {"title":"Wooden Bedrooms","category":"living","price":"AED 10,200*","image":"/ASSETS/products/wooden-beds.jpg","meta":"Imported Premium Woods"}
+]

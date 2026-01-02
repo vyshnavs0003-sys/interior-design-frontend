@@ -1,0 +1,63 @@
+.about-stats-strip {
+  background-color: #f7f7f7;
+}
+
+.about-stat-item {
+  padding: 0.75rem 0;
+}
+
+.about-stat-number {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--charcoal);
+}
+
+.about-stat-line {
+  width: 36px;
+  height: 2px;
+  background-color: #999999;
+  margin: 4px auto 6px;
+}
+
+.about-stat-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+
+
+/* Mission & vision split line */
+.about-mission-vision {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .about-mission-vision::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background-color: var(--softgrey);
+    transform: translateX(-50%);
+  }
+}
+
+/* Team blocks */
+.about-team-block img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-team-block:hover img {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
+.about-team-block figcaption {
+  font-size: 0.9rem;
+  color: var(--charcoal);
+}
