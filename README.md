@@ -1,7 +1,7 @@
 # Interior Design Company Website
 
 Academic Frontend Development Project  
-Calicut | December 2023
+Calicut | December 2025
 
 ## Project Overview
 A fully responsive, multi-page frontend website developed for an interior design company.  
