@@ -1,12 +1,12 @@
-let allProducts = []; // Store fetched data globally
+let allProducts = []; 
 
-//=================DYNAMIC PRODUCT CARD=========================
+//DYNAMIC PRODUCT CARD
 
 function renderProducts(products) {
 const container = document.getElementById('productsContainer');
 const productCount = document.getElementById('productCount');
 
-container.innerHTML = ''; // Clear loading spinner & old cards
+container.innerHTML = ''; 
 
 if (products.length === 0) {
   container.innerHTML = `
@@ -43,7 +43,7 @@ products.forEach(product => {
 productCount.textContent = products.length;
 }
 
-//===============FILTER===================
+//FILTER
 
 function applyFilters() {
 const searchTerm = document.getElementById('productSearch').value.toLowerCase();
@@ -68,13 +68,13 @@ let filtered = allProducts.filter(product => {
 renderProducts(filtered);
 }
 
-//=============FETCH DATA FROM JSON + INITIAL LOAD==============
+//FETCH DATA FROM JSON + INITIAL LOAD
 
 fetch('data/products.json')
 .then(response => response.json())
 .then(data => {
   allProducts = data;
-  renderProducts(data); // Initial render
+  renderProducts(data);
 })
 .catch(error => {
   console.error('Fetch error:', error);
@@ -82,8 +82,7 @@ fetch('data/products.json')
     '<div class="col-12 text-center py-5"><p class="text-danger">Error loading products</p></div>';
 });
 
-//=============EVENT LISTENERS===========================
-
+//EVENT LISTENERS
 document.getElementById('productSearch').addEventListener('input', applyFilters);
 document.getElementById('categoryFilter').addEventListener('change', applyFilters);
 document.getElementById('priceFilter').addEventListener('change', applyFilters);
